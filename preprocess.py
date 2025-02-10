@@ -6,3 +6,5 @@ from langchain_core.exceptions import OutputParserException
 import unicodedata
 
 def process_posts(raw_file_path, processed_file_path="data/processed_posts.json"):
+    enriched_posts = []
+    
