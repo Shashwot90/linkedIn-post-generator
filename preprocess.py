@@ -12,4 +12,5 @@ def process_posts(raw_file_path, processed_file_path="data/processed_posts.json"
 
         for post in posts:
             metadata = extract_metadata(post['text'])
+            post_with_metadata = post | metadata # {**post , **metadata}
             
