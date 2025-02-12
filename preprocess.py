@@ -11,4 +11,5 @@ def process_posts(raw_file_path, processed_file_path="data/processed_posts.json"
         posts = json.load(file)
 
         for post in posts:
+            metadata = extract_metadata(post['text'])
             
