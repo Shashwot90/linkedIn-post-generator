@@ -15,4 +15,6 @@ def process_posts(raw_file_path, processed_file_path="data/processed_posts.json"
             post_with_metadata = post | metadata # {**post , **metadata}
             enriched_posts.append(post_with_metadata)
     for epost in enriched_posts:
-        
+        print(epost)
+
+    
