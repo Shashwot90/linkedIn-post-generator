@@ -18,4 +18,5 @@ def process_posts(raw_file_path, processed_file_path="data/processed_posts.json"
         print(epost)
 
     unified_tags = get_unified_tags(enriched_posts)
-    
+    for post in enriched_posts:
+        
