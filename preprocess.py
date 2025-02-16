@@ -20,4 +20,5 @@ def process_posts(raw_file_path, processed_file_path="data/processed_posts.json"
     unified_tags = get_unified_tags(enriched_posts)
     for post in enriched_posts:
         current_tags = post['tags']
+        new_tags = {unified_tags[tag] for tag in current_tags}
         
