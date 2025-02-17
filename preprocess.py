@@ -23,4 +23,5 @@ def process_posts(raw_file_path, processed_file_path="data/processed_posts.json"
         new_tags = {unified_tags[tag] for tag in current_tags}
         post['tags'] = list(new_tags)
 
-    
+    with open(processed_file_path, encoding='utf-8', mode="w") as outfile:
+        
