@@ -26,3 +26,5 @@ def process_posts(raw_file_path, processed_file_path="data/processed_posts.json"
     with open(processed_file_path, encoding='utf-8', mode="w") as outfile:
         json.dump(enriched_posts, outfile, indent=4)
 
+def clean_text(text):
+    
