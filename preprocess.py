@@ -27,4 +27,6 @@ def process_posts(raw_file_path, processed_file_path="data/processed_posts.json"
         json.dump(enriched_posts, outfile, indent=4)
 
 def clean_text(text):
+    # Explicitly replace problematic surrogates
+    text = text.replace('\ud83e', ' ')
     
