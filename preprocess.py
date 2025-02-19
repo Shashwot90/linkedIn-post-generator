@@ -29,4 +29,8 @@ def process_posts(raw_file_path, processed_file_path="data/processed_posts.json"
 def clean_text(text):
     # Explicitly replace problematic surrogates
     text = text.replace('\ud83e', ' ')
+    # Normalize text to NFC form (Standard Unicode)
+    text = unicodedata.normalize('NFC', text)
+    # Remove unencodable surrogates
+    text = text.encode('utf-8', errors='surrogatepass').decode('utf-8', errors='ignore')
     
