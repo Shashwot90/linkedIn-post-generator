@@ -33,4 +33,5 @@ def clean_text(text):
     text = unicodedata.normalize('NFC', text)
     # Remove unencodable surrogates
     text = text.encode('utf-8', errors='surrogatepass').decode('utf-8', errors='ignore')
-    
+    return text
+
