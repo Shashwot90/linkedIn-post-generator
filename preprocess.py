@@ -36,4 +36,9 @@ def clean_text(text):
     return text
 
 def extract_metadata(post):
+    # return {
+    #     'line': 10,
+    #     'langiage': 'Eng'
+    # }
+    template = '''
     
