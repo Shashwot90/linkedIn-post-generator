@@ -35,3 +35,5 @@ def clean_text(text):
     text = text.encode('utf-8', errors='surrogatepass').decode('utf-8', errors='ignore')
     return text
 
+def extract_metadata(post):
+    
