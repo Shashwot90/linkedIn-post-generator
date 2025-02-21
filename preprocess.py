@@ -41,4 +41,5 @@ def extract_metadata(post):
     #     'langiage': 'Eng'
     # }
     template = '''
+    You are given a LinkedIn post. You need to extract number of lines, language of the post and tags.
     
