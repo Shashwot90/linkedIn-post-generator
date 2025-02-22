@@ -43,4 +43,5 @@ def extract_metadata(post):
     template = '''
     You are given a LinkedIn post. You need to extract number of lines, language of the post and tags.
     1. Return a valid JSON. No preamble.
+    2. JSON object should have exactly three keys: line_count, language and tags.
     
