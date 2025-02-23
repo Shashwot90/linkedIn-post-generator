@@ -47,4 +47,5 @@ def extract_metadata(post):
     3. tags is an array of text tags. Extract maximum two tags.
     4. Language should be English or Hinglish (Hinglish means hindi + english)
 
+    Here is the actual post on which you need to perform this task:
     
