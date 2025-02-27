@@ -57,4 +57,5 @@ def extract_metadata(post):
     response = chain.invoke(input={"post": cleaned_post})
 
     try:
+        json_parser = JsonOutputParser()
         
