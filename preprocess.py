@@ -56,4 +56,5 @@ def extract_metadata(post):
     cleaned_post = clean_text(post)
     response = chain.invoke(input={"post": cleaned_post})
 
-    
+    try:
+        
