@@ -58,4 +58,5 @@ def extract_metadata(post):
 
     try:
         json_parser = JsonOutputParser()
-        
+        res = json_parser.parse(response.content)
+    
