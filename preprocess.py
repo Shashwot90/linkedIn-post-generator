@@ -62,4 +62,6 @@ def extract_metadata(post):
     # except OutputParserException:
     #     raise OutputParserException("Context too big. Unable to parse jobs.")
     except UnicodeEncodeError:
+        # Remove invalid surrogates
+        sanitized_post = post.encode('utf-8', errors='ignore').decode('utf-8')
         
