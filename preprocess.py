@@ -68,3 +68,6 @@ def extract_metadata(post):
         res = json_parser.parse(response.content)
     return res
 
+
+def get_unified_tags(posts_with_metadata):
+    
