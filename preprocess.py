@@ -66,4 +66,5 @@ def extract_metadata(post):
         sanitized_post = post.encode('utf-8', errors='ignore').decode('utf-8')
         response = chain.invoke(input={"post": sanitized_post})
         res = json_parser.parse(response.content)
-    
+    return res
+
