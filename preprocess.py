@@ -78,4 +78,5 @@ def get_unified_tags(posts_with_metadata):
     unique_tags_list = ','.join(unique_tags)
 
     template = '''I will give you a list of tags. You need to unify tags with the following requirements,
-    
+    1. Tags are unified and merged to create a shorter list. 
+       
