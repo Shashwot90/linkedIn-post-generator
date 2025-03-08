@@ -82,4 +82,5 @@ def get_unified_tags(posts_with_metadata):
        Example 1: "Jobseekers", "Job Hunting" can be all merged into a single tag "Job Search". 
        Example 2: "Motivation", "Inspiration", "Drive" can be mapped to "Motivation"
        Example 3: "Personal Growth", "Personal Development", "Self Improvement" can be mapped to "Self Improvement"
-       
+       Example 4: "Scam Alert", "Job Scam" etc. can be mapped to "Scams"
+    
