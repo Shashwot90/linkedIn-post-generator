@@ -81,4 +81,5 @@ def get_unified_tags(posts_with_metadata):
     1. Tags are unified and merged to create a shorter list. 
        Example 1: "Jobseekers", "Job Hunting" can be all merged into a single tag "Job Search". 
        Example 2: "Motivation", "Inspiration", "Drive" can be mapped to "Motivation"
+       Example 3: "Personal Growth", "Personal Development", "Self Improvement" can be mapped to "Self Improvement"
        
