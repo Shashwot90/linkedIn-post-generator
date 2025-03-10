@@ -86,4 +86,6 @@ def get_unified_tags(posts_with_metadata):
     2. Each tag should be follow title case convention. example: "Motivation", "Job Search"
     3. Output should be a JSON object, No preamble
     4. Output should have mapping of original tag and the unified tag. 
-       
+       For example: {{"Jobseekers": "Job Search",  "Job Hunting": "Job Search", "Motivation": "Motivation}}
+
+    
