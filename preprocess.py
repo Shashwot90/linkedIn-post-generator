@@ -88,4 +88,5 @@ def get_unified_tags(posts_with_metadata):
     4. Output should have mapping of original tag and the unified tag. 
        For example: {{"Jobseekers": "Job Search",  "Job Hunting": "Job Search", "Motivation": "Motivation}}
 
+    Here is the list of tags: 
     
