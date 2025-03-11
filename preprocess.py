@@ -89,4 +89,6 @@ def get_unified_tags(posts_with_metadata):
        For example: {{"Jobseekers": "Job Search",  "Job Hunting": "Job Search", "Motivation": "Motivation}}
 
     Here is the list of tags: 
+    {tags}
+    '''
     
