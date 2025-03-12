@@ -92,4 +92,5 @@ def get_unified_tags(posts_with_metadata):
     {tags}
     '''
     pt = PromptTemplate.from_template(template)
+    chain = pt | llm
     
