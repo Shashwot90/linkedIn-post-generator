@@ -94,4 +94,5 @@ def get_unified_tags(posts_with_metadata):
     pt = PromptTemplate.from_template(template)
     chain = pt | llm
     response = chain.invoke(input={"tags": str(unique_tags_list)})
-    
+    try:
+        
