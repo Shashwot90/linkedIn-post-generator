@@ -95,4 +95,5 @@ def get_unified_tags(posts_with_metadata):
     chain = pt | llm
     response = chain.invoke(input={"tags": str(unique_tags_list)})
     try:
+        json_parser = JsonOutputParser()
         
