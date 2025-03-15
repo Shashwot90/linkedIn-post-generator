@@ -97,4 +97,5 @@ def get_unified_tags(posts_with_metadata):
     try:
         json_parser = JsonOutputParser()
         res = json_parser.parse(response.content)
-    
+    except OutputParserException:
+        
