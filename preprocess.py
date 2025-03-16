@@ -99,4 +99,8 @@ def get_unified_tags(posts_with_metadata):
         res = json_parser.parse(response.content)
     except OutputParserException:
         raise OutputParserException("Context too big. Unable to parse jobs.")
-    
+    return res
+
+
+if __name__ == "__main__":
+    process_posts("/home/makima/Documents/projects/linkedin-post-generator/data/raw_posts.json", "data/processed_posts.json")
