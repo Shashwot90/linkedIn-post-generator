@@ -103,5 +103,5 @@ def get_unified_tags(posts_with_metadata):
 
 
 
-
 if __name__ == "__main__":
+    process_posts("/home/makima/Documents/projects/linkedin-post-generator/data/raw_posts.json", "data/processed_posts.json")
