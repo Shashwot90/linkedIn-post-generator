@@ -5,4 +5,5 @@ few_shot = FewShotPosts()
 
 
 def get_length_str(length):
-    
+    if length == "Short":
+        
