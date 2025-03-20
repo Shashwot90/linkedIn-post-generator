@@ -7,4 +7,5 @@ few_shot = FewShotPosts()
 def get_length_str(length):
     if length == "Short":
         return "1 to 5 lines"
-    
+    if length == "Medium":
+        
