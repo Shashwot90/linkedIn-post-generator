@@ -9,4 +9,5 @@ def get_length_str(length):
         return "1 to 5 lines"
     if length == "Medium":
         return "6 to 10 lines"
-    
+    if length == "Long":
+        
