@@ -19,3 +19,6 @@ def generate_post(length, language, tag):
     response = llm.invoke(prompt)
     return response.content
 
+
+def get_prompt(length, language, tag):
+    
