@@ -21,4 +21,6 @@ def generate_post(length, language, tag):
 
 
 def get_prompt(length, language, tag):
+    length_str = get_length_str(length)
+
     
