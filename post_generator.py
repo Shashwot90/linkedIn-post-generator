@@ -27,4 +27,5 @@ def get_prompt(length, language, tag):
     Generate a LinkedIn post using the below information. No preamble.
 
     1) Topic: {tag}
+    2) Length: {length_str}
     
