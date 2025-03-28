@@ -30,4 +30,5 @@ def get_prompt(length, language, tag):
     2) Length: {length_str}
     3) Language: {language}
     If Language is Hinglish then it means it is a mix of Hindi and English. 
+    The script for the generated post should always be English.
     
