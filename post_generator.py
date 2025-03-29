@@ -34,4 +34,5 @@ def get_prompt(length, language, tag):
     '''
     # prompt = prompt.format(post_topic=tag, post_length=length_str, post_language=language)
 
-    
+    examples = few_shot.get_filtered_posts(length, language, tag)
+
