@@ -37,4 +37,6 @@ def get_prompt(length, language, tag):
     examples = few_shot.get_filtered_posts(length, language, tag)
 
     if len(examples) > 0:
-        
+        prompt += "4) Use the writing style as per the following examples."
+
+    
