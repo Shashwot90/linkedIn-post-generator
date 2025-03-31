@@ -40,4 +40,5 @@ def get_prompt(length, language, tag):
         prompt += "4) Use the writing style as per the following examples."
 
     for i, post in enumerate(examples):
+        post_text = post['text']
         
