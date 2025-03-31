@@ -41,4 +41,6 @@ def get_prompt(length, language, tag):
 
     for i, post in enumerate(examples):
         post_text = post['text']
+        prompt += f'\n\n Example {i+1}: \n\n {post_text}'
+
         
