@@ -44,3 +44,5 @@ def get_prompt(length, language, tag):
         prompt += f'\n\n Example {i+1}: \n\n {post_text}'
 
         if i == 1: # Use max two samples
+            break
+
