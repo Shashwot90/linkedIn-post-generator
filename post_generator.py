@@ -49,3 +49,5 @@ def get_prompt(length, language, tag):
     return prompt
 
 
+if __name__ == "__main__":
+    
