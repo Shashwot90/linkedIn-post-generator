@@ -46,3 +46,6 @@ def get_prompt(length, language, tag):
         if i == 1: # Use max two samples
             break
 
+    return prompt
+
+
