@@ -18,4 +18,5 @@ class FewShotPosts:
             all_tags = self.df['tags'].apply(lambda x: x).sum()
             self.unique_tags = list(set(all_tags))
 
-    
+    def get_filtered_posts(self, length, language, tag):
+        
