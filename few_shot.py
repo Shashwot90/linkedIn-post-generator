@@ -19,4 +19,5 @@ class FewShotPosts:
             self.unique_tags = list(set(all_tags))
 
     def get_filtered_posts(self, length, language, tag):
-        
+        df_filtered = self.df[
+            
