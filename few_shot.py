@@ -22,4 +22,6 @@ class FewShotPosts:
         df_filtered = self.df[
             (self.df['tags'].apply(lambda tags: tag in tags)) &  # Tags contain 'Influencer'
             (self.df['language'] == language) &  # Language is 'English'
-            
+            (self.df['length'] == length)  # Line count is less than 5
+        ]
+        
