@@ -21,4 +21,5 @@ class FewShotPosts:
     def get_filtered_posts(self, length, language, tag):
         df_filtered = self.df[
             (self.df['tags'].apply(lambda tags: tag in tags)) &  # Tags contain 'Influencer'
+            (self.df['language'] == language) &  # Language is 'English'
             
