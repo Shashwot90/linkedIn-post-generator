@@ -24,4 +24,5 @@ class FewShotPosts:
             (self.df['language'] == language) &  # Language is 'English'
             (self.df['length'] == length)  # Line count is less than 5
         ]
-        
+        return df_filtered.to_dict(orient='records')
+
