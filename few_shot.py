@@ -26,3 +26,5 @@ class FewShotPosts:
         ]
         return df_filtered.to_dict(orient='records')
 
+    def categorize_length(self, line_count):
+        
