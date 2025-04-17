@@ -28,4 +28,5 @@ class FewShotPosts:
 
     def categorize_length(self, line_count):
         if line_count < 5:
-            
+            return "Short"
+        
