@@ -30,4 +30,5 @@ class FewShotPosts:
         if line_count < 5:
             return "Short"
         elif 5 <= line_count <= 10:
-            
+            return "Medium"
+        
