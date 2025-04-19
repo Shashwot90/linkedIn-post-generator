@@ -32,4 +32,5 @@ class FewShotPosts:
         elif 5 <= line_count <= 10:
             return "Medium"
         else:
-            
+            return "Long"
+
