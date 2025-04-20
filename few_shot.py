@@ -34,3 +34,5 @@ class FewShotPosts:
         else:
             return "Long"
 
+    def get_tags(self):
+        
