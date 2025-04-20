@@ -35,4 +35,6 @@ class FewShotPosts:
             return "Long"
 
     def get_tags(self):
-        
+        return self.unique_tags
+
+
