@@ -40,6 +40,4 @@ class FewShotPosts:
 
 if __name__ == "__main__":
     fs = FewShotPosts()
-    # print(fs.get_tags())
-    posts = fs.get_filtered_posts("Short","English","Job Search")
-    print(posts)
+    
