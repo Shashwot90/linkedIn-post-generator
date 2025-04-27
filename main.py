@@ -10,4 +10,5 @@ def main():
     st.title("LinkedIn Post Generator")
     col1, col2, col3 = st.columns(3)
     fs = FewShotPosts()
-    
+    with col1:
+        
