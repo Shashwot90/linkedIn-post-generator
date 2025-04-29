@@ -14,4 +14,6 @@ def main():
         selected_tag = st.selectbox("Title", options=fs.get_tags())
 
     with col2:
-        
+        selected_length = st.selectbox("Length", options=length_options)
+
+    
