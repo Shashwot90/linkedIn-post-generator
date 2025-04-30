@@ -17,4 +17,6 @@ def main():
         selected_length = st.selectbox("Length", options=length_options)
 
     with col3:
-        
+        selected_language = st.selectbox("Language", options=language_options)
+
+    
