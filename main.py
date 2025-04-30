@@ -19,4 +19,5 @@ def main():
     with col3:
         selected_language = st.selectbox("Language", options=language_options)
 
-    
+    if st.button("Generate"):
+        
