@@ -20,4 +20,8 @@ def main():
         selected_language = st.selectbox("Language", options=language_options)
 
     if st.button("Generate"):
-        
+        post = generate_post(selected_length, selected_language, selected_tag)
+        st.write(post)
+
+if __name__=="__main__":
+    main()
